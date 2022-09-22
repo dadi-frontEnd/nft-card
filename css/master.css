@@ -1,0 +1,53 @@
+:root {
+    --primary-color: hsl(158, 36%, 37%);
+    --primary-bcg-color: hsl(30, 38%, 92%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Fraunces;
+}
+
+h1 {
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+span {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+div button {
+    background-color: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-family: Fraunces;
+}
